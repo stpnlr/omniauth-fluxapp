@@ -5,7 +5,7 @@ module OmniAuth
       option :name, :fluxapp
 
       option :client_options, {
-          :site => "http://flux.foradian.org",
+          :site => "https://flux.foradian.org",
           :authorize_url => "/oauth/authorize"
       }
 
